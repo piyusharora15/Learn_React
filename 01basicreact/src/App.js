@@ -1,6 +1,10 @@
+import Chai from "./Chai.js";
 function App() {
   return (
-    <><h1>Hello React! | Learnt reading package.json,creating a react app using two techniques- npm create-reactapp and npm create vite@latest.</h1></>
+    <>
+    <Chai />
+    <h1>Hello React! | Learnt reading package.json,creating a react app using two techniques- npm create-reactapp and npm create vite@latest.</h1>
+    </>
   );
 }
 
