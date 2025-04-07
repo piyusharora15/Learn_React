@@ -5,10 +5,11 @@ import Chai from "./chai";
 // In order to return multiple elements, we have several ways: <div></div> enclose the elements in div element.
 // Best way is <>....</> this is called fragment, within this fragment enclose multiple elements, it will be treated as returning a single element.
 function App() {
+  const username = "chai aur code"
   return (
     <>
     <Chai />
-    <h1>Chai aur React</h1>
+    <h1>Chai aur React {username}</h1>
     <p>Test Para</p>
     </>
   );
